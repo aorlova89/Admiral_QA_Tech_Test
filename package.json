@@ -6,13 +6,13 @@
   "scripts": {
     "test": "mocha --timeout 10000",
     "build": "tsc",
-    "husky": {
-      "hooks": {
-        "pre-commit": "prettier --write . && git add -A ."
-      }
-    },
     "lint": "prettier --check .",
     "format": "prettier --write ."
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "prettier --write . && git add -A ."
+    }
   },
   "keywords": [],
   "author": "",
